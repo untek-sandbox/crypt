@@ -10,6 +10,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
+    "behat/transliterator": "^1.3",
     "phpseclib/phpseclib": "2.*",
     "robrichards/xmlseclibs": "3.*",
     "fgrosse/phpasn1": "^2.5",
