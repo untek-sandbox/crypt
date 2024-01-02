@@ -10,6 +10,9 @@
   ],
   "minimum-stability": "dev",
   "require": {
+    "paragonie/easy-ecc": "v0.1.2",
+    "bitwasp/bitcoin": "1.0.x-dev",
+    "kornrunner/ethereum-address": "v0.1.0",
     "behat/transliterator": "^1.3",
     "phpseclib/phpseclib": "2.*",
     "robrichards/xmlseclibs": "3.*",
