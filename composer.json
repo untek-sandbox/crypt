@@ -14,8 +14,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Untek\\Crypt\\": "src",
-      "Untek\\Crypt\\Tests\\": "tests"
+      "Untek\\Sandbox\\Crypt\\": "src",
+      "Untek\\Sandbox\\Crypt\\Tests\\": "tests"
     }
   }
 }
