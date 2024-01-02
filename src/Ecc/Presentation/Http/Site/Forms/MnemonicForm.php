@@ -1,0 +1,68 @@
+<?php
+
+namespace Untek\Sandbox\Crypt\Ecc\Presentation\Http\Site\Forms;
+
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\Form\Extension\Core\Type\TextareaType;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\Validator\Constraints as Assert;
+use Symfony\Component\Validator\Mapping\ClassMetadata;
+use Untek\Component\Web\Form\Interfaces\BuildFormInterface;
+use ZnCore\Domain\Interfaces\Entity\ValidateEntityByMetadataInterface;
+
+class MnemonicForm implements /*ValidateEntityByMetadataInterface,*/ BuildFormInterface
+{
+
+    private $value;
+    private $password = '';
+
+    public static function loadValidatorMetadata(ClassMetadata $metadata)
+    {
+        //$metadata->addPropertyConstraint('value', new Assert\NotBlank());
+    }
+
+    public function buildForm(FormBuilderInterface $formBuilder)
+    {
+        $formBuilder
+            ->add('value', TextareaType::class, [
+                'label' => 'Seed'
+            ])
+            ->add('password', TextareaType::class, [
+                'label' => 'password'
+            ])
+            ->add('save', SubmitType::class, [
+                'label' => 'save'
+            ])
+            ->add('generate', SubmitType::class, [
+                'label' => 'generate'
+            ]);
+    }
+
+    public function getValue()
+    {
+        return $this->value;
+    }
+
+    public function setValue($value): void
+    {
+        $this->value = $value;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPassword()
+    {
+        return $this->password;
+    }
+
+    /**
+     * @param mixed $password
+     */
+    public function setPassword($password): void
+    {
+        $this->password = $password;
+    }
+
+}
