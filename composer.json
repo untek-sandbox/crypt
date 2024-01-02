@@ -1,0 +1,21 @@
+{
+  "name": "untek-sandbox/crypt",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Untek Developer",
+      "email": "untek.developer@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Untek\\Crypt\\": "src",
+      "Untek\\Crypt\\Tests\\": "tests"
+    }
+  }
+}
