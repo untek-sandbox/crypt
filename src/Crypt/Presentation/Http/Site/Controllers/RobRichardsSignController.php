@@ -16,6 +16,11 @@ class RobRichardsSignController extends AbstractSandboxController
     private $sourceXmlFile = __DIR__ . '/../../../../resources/data/RobRichards/xml/almas/source.xml';
     private $signedXmlFile = __DIR__ . '/../../../../resources/data/RobRichards/xml/almas/signed.xml';
 
+    public static function isHidden(): bool
+    {
+        return true;
+    }
+    
     public function __invoke(Request $request): Response
     {
         $signature = new Signature();

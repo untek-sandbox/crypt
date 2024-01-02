@@ -29,6 +29,11 @@ class TestVerifyController extends BaseController
     private $publicPemFile = __DIR__ . '/../../../var/ecc/keys/public.pem';
     private $signatureFile = __DIR__ . '/../../../var/ecc/keys/sig';
 
+    public static function isHidden(): bool
+    {
+        return true;
+    }
+
     public function __invoke(Request $request): Response
     {
         return $this->verify($request);

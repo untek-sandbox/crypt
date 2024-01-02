@@ -11,7 +11,12 @@ class CrlVerifyWithPhpseclibController extends AbstractSandboxController
 {
 
     private $crlFile = __DIR__ . '/../../../../resources/data/nca_d_rsa.crl';
-
+    
+    public static function isHidden(): bool
+    {
+        return true;
+    }
+    
     public function __invoke(Request $request): Response
     {
         $binary = file_get_contents($this->crlFile);

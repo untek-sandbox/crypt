@@ -9,6 +9,11 @@ use Untek\Sandbox\Sandbox\Zip\Domain\Libs\ZipDirectory;
 class KeyDownloadController extends BaseController
 {
 
+    public static function isHidden(): bool
+    {
+        return true;
+    }
+
     public function __invoke(Request $request): Response
     {
         $zipDirectory = new ZipDirectory();

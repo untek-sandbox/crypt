@@ -12,6 +12,11 @@ class CrlVerify1Controller extends AbstractSandboxController
 
     private $crlFile = __DIR__ . '/../../../../resources/data/nca_d_rsa.crl';
 
+    public static function isHidden(): bool
+    {
+        return true;
+    }
+    
     public function __invoke(Request $request): Response
     {
         $KDC_REP = array(

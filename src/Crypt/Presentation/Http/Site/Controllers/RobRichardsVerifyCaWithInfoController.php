@@ -14,6 +14,11 @@ class RobRichardsVerifyCaWithInfoController extends AbstractSandboxController
 
     private $rootCaFile = __DIR__ . '/../../../../resources/data/RobRichards/key/nca_rsa.crt';
 
+    public static function isHidden(): bool
+    {
+        return true;
+    }
+    
     public function __invoke(Request $request): Response
     {
         $verify = new Signature();

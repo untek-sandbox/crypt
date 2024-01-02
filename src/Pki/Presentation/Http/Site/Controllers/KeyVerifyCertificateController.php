@@ -17,6 +17,11 @@ class KeyVerifyCertificateController extends BaseController
     private $keyLoader;
     private $certificateService;
 
+    public static function isHidden(): bool
+    {
+        return true;
+    }
+
     public function __construct()
     {
         parent::__construct();

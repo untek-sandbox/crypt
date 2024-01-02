@@ -9,6 +9,11 @@ use Symfony\Component\HttpFoundation\Response;
 class EgovQrValidateController extends AbstractSandboxController
 {
 
+    public static function isHidden(): bool
+    {
+        return true;
+    }
+    
     public function __invoke(Request $request): Response
     {
         $content = file_get_contents(__DIR__ . '/../../../../public/sigex/index.html');

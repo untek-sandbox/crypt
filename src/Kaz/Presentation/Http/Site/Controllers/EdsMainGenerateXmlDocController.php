@@ -31,6 +31,11 @@ class EdsMainGenerateXmlDocController extends AbstractSandboxController {
 
     private $rootCaFile = __DIR__ . '/../../../../../Crypt/resources/data/RobRichards/key/nca_rsa.crt';
 
+    public static function isHidden(): bool
+    {
+        return true;
+    }
+
     public function __invoke(Request $request): Response {
         if ($request->getMethod() == 'POST') {
             // dd($request->request->all());

@@ -9,6 +9,11 @@ use Symfony\Component\HttpFoundation\Response;
 class JsCreateController extends AbstractSandboxController
 {
 
+    public static function isHidden(): bool
+    {
+        return true;
+    }
+
     public function __invoke(Request $request): Response
     {
         //https://github.com/PeculiarVentures/xadesjs#readme

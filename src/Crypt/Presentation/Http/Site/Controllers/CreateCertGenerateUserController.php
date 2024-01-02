@@ -43,15 +43,11 @@ class CreateCertGenerateUserController extends AbstractSandboxController
     private $directoryCa = __DIR__ . '/../../../../resources/var/pki/rootCa';
     private $directoryUser = __DIR__ . '/../../../../resources/var/pki/user';
 
-    private $keyLoader;
-
-    public function __construct(
-        DirectoryKeyLoader $keyLoader
-    )
+    public static function isHidden(): bool
     {
-        $this->keyLoader = $keyLoader;
+        return true;
     }
-
+    
     public function __invoke(Request $request): Response
     {
         $random = new RandomString();

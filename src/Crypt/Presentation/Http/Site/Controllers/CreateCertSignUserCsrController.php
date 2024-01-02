@@ -52,6 +52,11 @@ class CreateCertSignUserCsrController extends AbstractSandboxController
         $this->keyLoader = $keyLoader;
     }
 
+    public static function isHidden(): bool
+    {
+        return true;
+    }
+    
     public function __invoke(Request $request): Response
     {
         //$p12UserPem = FileStorageHelper::load($this->p12User);

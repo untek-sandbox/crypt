@@ -24,6 +24,11 @@ class XmlSignController extends BaseController
 
     private $keyLoader;
 
+    public static function isHidden(): bool
+    {
+        return true;
+    }
+
     public function __construct()
     {
         parent::__construct();
