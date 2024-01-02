@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <id>42765</id>
+    <oid>349</oid>
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference>
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>p7SPuWPrSOFh1kyPy7Bg5Udz84xWLPEu9EFAZP/R6tg=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            MJUx+mGflebodeQFHjToJCVddVh79Mwm4wlvP0x5Pkl5l34kX8i9B0NDojLSFbse6BskYxlXGWGSqLxBMq4TKiFAqsOFcYpBvj5BPbDoc3kRcz1lo1HMedglp66n8BZhD/3zMGpGLMD9bFkEy+I7YTGGhVC+LMBcCbLy2fHUZ0w7FGNAYrXzOqv9I89/6sSqZ8aSETOM7j7f2dVVFsVPJ5XXX++5L7WEfclKvdz19c1fdUlxVY5GjuuyA3ijZcPzmclw10yxLpHwiu/K3CWh7cA97IP9K/XCpqGE5L1OP/TEbdzR9EXzEHLFmbig5OzDufPtQQDNGHaO6Jci2S/bWQ==
+        </ds:SignatureValue>
+    </ds:Signature>
+</root>

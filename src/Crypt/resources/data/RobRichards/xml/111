@@ -1,0 +1,231 @@
+{
+    "tbsCertificate": {
+        "version": "v3",
+        "serialNumber": {
+            "value": [
+                841310100,
+                324798606,
+                457235762,
+                980146936,
+                55698542,
+                7
+            ],
+            "is_negative": false,
+            "precision": -1,
+            "bitmask": false,
+            "hex": null
+        },
+        "signature": {
+            "algorithm": "sha256WithRSAEncryption",
+            "parameters": {
+                "null": ""
+            }
+        },
+        "issuer": {
+            "rdnSequence": [
+                [
+                    {
+                        "type": "id-at-countryName",
+                        "value": {
+                            "printableString": "KZ"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "id-at-commonName",
+                        "value": {
+                            "utf8String": "ҰЛТТЫҚ КУӘЛАНДЫРУШЫ ОРТАЛЫҚ (RSA)"
+                        }
+                    }
+                ]
+            ]
+        },
+        "validity": {
+            "notBefore": {
+                "utcTime": "Mon, 20 Apr 2020 11:15:44 +0000"
+            },
+            "notAfter": {
+                "utcTime": "Tue, 20 Apr 2021 11:15:44 +0000"
+            }
+        },
+        "subject": {
+            "rdnSequence": [
+                [
+                    {
+                        "type": "id-at-commonName",
+                        "value": {
+                            "utf8String": "ЯМЩИКОВ ВИТАЛИЙ"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "id-at-surname",
+                        "value": {
+                            "utf8String": "ЯМЩИКОВ"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "id-at-serialNumber",
+                        "value": {
+                            "printableString": "IIN880521300193"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "id-at-countryName",
+                        "value": {
+                            "printableString": "KZ"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "id-at-givenName",
+                        "value": {
+                            "utf8String": "ВИКТОРОВИЧ"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "pkcs-9-at-emailAddress",
+                        "value": {
+                            "ia5String": "THEYAMSHIKOV@YANDEX.RU"
+                        }
+                    }
+                ]
+            ]
+        },
+        "subjectPublicKeyInfo": {
+            "algorithm": {
+                "algorithm": "rsaEncryption",
+                "parameters": {
+                    "null": ""
+                }
+            },
+            "subjectPublicKey": "-----BEGIN RSA PUBLIC KEY-----\r\nMIIBCgKCAQEAveSG0BXCJILbiJLx9dge3C7ag5xDVzjf0GnK59SsFXbkxO0xkMOw\r\nJo7vRuGlHTx7tGMxGpMZUjlDuBcWo54OhE6sJUYNMTcfh3pOc0X0j6uUmtJ781xK\r\nUOb35Zm6h\/OqptqGzq2n47QkLb2h+VIwoaaCzXK2HpOWphfDoiFln3+jnUs4NDLq\r\npvduQWerRUdmF3eaSl97lXqHdiA1Whm\/\/hDryrfcp5qODmauo8cHBeQeePVCAVRd\r\nL5jVP58+OM\/K32yIOgPsVgXjCWrWAo85WCaAiiiA3F9LuIQZg\/WSPnOkbGbwlT1U\r\nyjzeGaTK++PHORAr3ZwuMCX6wN34hi3hiwIDAQAB\r\n-----END RSA PUBLIC KEY-----"
+        },
+        "extensions": [
+            {
+                "extnId": "id-ce-keyUsage",
+                "critical": true,
+                "extnValue": [
+                    "nonRepudiation",
+                    "digitalSignature"
+                ]
+            },
+            {
+                "extnId": "id-ce-extKeyUsage",
+                "critical": false,
+                "extnValue": [
+                    "id-kp-emailProtection",
+                    "1.2.398.3.3.4.1.1",
+                    "1.2.398.3.3.4.3.2.1"
+                ]
+            },
+            {
+                "extnId": "id-ce-authorityKeyIdentifier",
+                "critical": false,
+                "extnValue": {
+                    "keyIdentifier": "W2p0EQ=="
+                }
+            },
+            {
+                "extnId": "id-ce-subjectKeyIdentifier",
+                "critical": false,
+                "extnValue": "zH6sZTeEqEpW\/mMPDxQWvEhMeV0="
+            },
+            {
+                "extnId": "id-ce-certificatePolicies",
+                "critical": false,
+                "extnValue": [
+                    {
+                        "policyIdentifier": "1.2.398.3.3.2.3",
+                        "policyQualifiers": [
+                            {
+                                "policyQualifierId": "id-qt-cps",
+                                "qualifier": {
+                                    "ia5String": "http:\/\/pki.gov.kz\/cps"
+                                }
+                            },
+                            {
+                                "policyQualifierId": "id-qt-unotice",
+                                "qualifier": {
+                                    "explicitText": {
+                                        "utf8String": "http:\/\/pki.gov.kz\/cps"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "extnId": "id-ce-cRLDistributionPoints",
+                "critical": false,
+                "extnValue": [
+                    {
+                        "distributionPoint": {
+                            "fullName": [
+                                {
+                                    "uniformResourceIdentifier": "http:\/\/crl.pki.gov.kz\/nca_rsa.crl"
+                                },
+                                {
+                                    "uniformResourceIdentifier": "http:\/\/crl1.pki.gov.kz\/nca_rsa.crl"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "extnId": "id-ce-freshestCRL",
+                "critical": false,
+                "extnValue": [
+                    {
+                        "distributionPoint": {
+                            "fullName": [
+                                {
+                                    "uniformResourceIdentifier": "http:\/\/crl.pki.gov.kz\/nca_d_rsa.crl"
+                                },
+                                {
+                                    "uniformResourceIdentifier": "http:\/\/crl1.pki.gov.kz\/nca_d_rsa.crl"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "extnId": "id-pe-authorityInfoAccess",
+                "critical": false,
+                "extnValue": [
+                    {
+                        "accessMethod": "id-ad-caIssuers",
+                        "accessLocation": {
+                            "uniformResourceIdentifier": "http:\/\/pki.gov.kz\/cert\/nca_rsa.cer"
+                        }
+                    },
+                    {
+                        "accessMethod": "id-ad-ocsp",
+                        "accessLocation": {
+                            "uniformResourceIdentifier": "http:\/\/ocsp.pki.gov.kz"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "signatureAlgorithm": {
+        "algorithm": "sha256WithRSAEncryption",
+        "parameters": {
+            "null": ""
+        }
+    },
+    "signature": "AEXDkH1JiuubdliLg21olCyZKoA2azYnpXRJe2\/ZcmWlIveO0gDBCxvSvztfXYna1aUR6O++gkUSDDkoQv0wSM0sxZrtLyvZasgOac9ZfQOyfrfEwi6\/Ifikor77yCfQD\/osgiodrbWWvS2UT4+fPVQ\/6GJQ5fcnsov1zmqo0q9w3\/P0CPxMwf7NWdIAhlEfAYyqY5tkbEyE8osgkokPWT3xzLNsLzCjjmDgtwUiGW2K5jj3diMxuNcqnZC17ej0tebLmnjjShpYKGbYlUa05wy7ATl5B91Emnr9o0E0m2oq6oyp\/RXitrnpuYrcG+WF0mUDNd0JEHTnWwT48QIx8+qTQNw4UpCxj+ySrLWKizGrFBlSL0FsmUJg17H4ql5eA6bV8CmjOVEAhVoQFW9Pr0nD7YjDcyLBgliCBVzFwDzcl8KrJ1TD5wxNQ55XfA5wEbJ4SL\/QL7mhE2F4533QFqS8vRTFZnM92Ysgz7eD3qjL16dEfDsPYMiAfb4Aa9i+\/rCTG5pGDOFSL5H8YzoQgmtpZaD0BywyAe\/oGmMUnhldsJhAjAvC1vDM4GM4kooOylPVP0r53VSBkwZ\/rCtXc9dozd\/aDAtmPCIAsWNiIdbKxBFqmuXxIpk0XTM7NP8b9mwe0UWW6xNESL6VsLrzUo4IFVGtnThMB5l8R5ec7O9x"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><root><wp_id>203</wp_id><purposes><item0><id>418</id><name>Еще какая-то цель</name><value>211</value><saved>1</saved></item0><item1><id>175</id><name>соответствие использования бюджетных средств и активов государства законодательству Республики Казахстан, соблюдение законодательства Республики Казахстан о государственных закупках, достоверность и правильность ведения объектами контроля учета и отчетности.</name><value>161</value><saved>1</saved></item1><item2><id>419</id><name>Полнота и своевременность поступлений в местный бюджет, возврат и/или зачет излишне (ошибочно) уплаченных сумм поступлений в местный бюджета</name><value>3</value><saved>1</saved></item2></purposes><subjects><item0><id>190</id><name>процесс использования бюджетных средств и активов государства, учет и отчетность, процедуры проведения государственных закупок.</name><value>445</value><saved>1</saved></item0><item1><id>416</id><name>процесс использования бюджетных средств и активов государства, учет и отчетность, соблюдение  законодательства РК «О  государственных закупках».</name><value>477</value><saved>1</saved></item1><item2><id>417</id><name>Аудит эффективности использования бюджетных средств, выделенных Управлению природных ресурсов и регулирования природопользования и его подведомственным учреждениям на реализацию мероприятий по охране, защите, воспроизводству лесов и лесоразведению</name><value>488</value><saved>1</saved></item2></subjects><main_org>КГКП "Зайсанский историко-краеведческий музей"</main_org><docs>устав предприятия
+    план развития предприятия
+    отчет финансово-хозяйственной деятельности
+    информация по поступлениям из бюджета за 2012 год и за 2013 год по бюджетным программам, включая целевые трансферты из республиканского бюджета...</docs><mail_until_ts>13.06.2014</mail_until_ts><pre_dates>03.07.2015 - 22.07.2014</pre_dates><predates>23.07.2014 - 27.06.2014</predates><appendix/><pre_to_control>1</pre_to_control><bin>990540002652</bin><organization_name>КГКП "Зайсанский историко-краеведческий музей" управления культуры, архивов и документации Восточно-Казахстанской области</organization_name><control_event>34</control_event><control_event_name>Контроль  эффективности использования  средств  и активов  в  квазигосударственном секторе</control_event_name><members><item0>Маусеитов  Б. А.</item0><item1>Базаров  Д. Қ.</item1></members><checksum>8e8de44d1ad4ba5d0c222a9c1f6343e0</checksum><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+        <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gost34310-gost34311"/>
+        <ds:Reference URI="">
+            <ds:Transforms>
+                <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                <ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+            </ds:Transforms>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gost34311"/>
+            <ds:DigestValue>zIPYxK8YXOD0i0thBzUO1c0y9yX1myRtpu7FDbN7y7U=</ds:DigestValue>
+        </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>
+        Df9hudMI3pBvX601oOsSUIfW26TvKjcA2j18liwjCYSBryzl8mJXbjDVR33b3t0OoPjEzBG4EFNO
+        p836DC3c0w==
+    </ds:SignatureValue>
+    <ds:KeyInfo>
+        <ds:X509Data>
+            <ds:X509Certificate>
+                MIIEnTCCBEegAwIBAgIUL5oWLw801PHvDerC4uADFkHJZL8wDQYJKoMOAwoBAQECBQAwgc8xCzAJ
+                BgNVBAYTAktaMRUwEwYDVQQHDAzQkNCh0KLQkNCd0JAxFTATBgNVBAgMDNCQ0KHQotCQ0J3QkDFM
+                MEoGA1UECgxD0KDQnNCaIMKr0JzQldCc0JvQldCa0JXQotCi0IbQmiDQotCV0KXQndCY0JrQkNCb
+                0KvSmiDSmtCr0JfQnNCV0KLCuzFEMEIGA1UEAww70rDQm9Ci0KLQq9KaINCa0KPTmNCb0JDQndCU
+                0KvQoNCj0KjQqyDQntCg0KLQkNCb0KvSmiAoR09TVCkwHhcNMTUxMjIyMDYyMjU1WhcNMTYxMjIx
+                MDYyMjU1WjCB2zEeMBwGA1UEAwwV0KLQldCh0KLQntCSINCi0JXQodCiMRUwEwYDVQQEDAzQotCV
+                0KHQotCe0JIxGDAWBgNVBAUTD0lJTjEyMzQ1Njc4OTAxMTELMAkGA1UEBhMCS1oxFTATBgNVBAcM
+                DNCQ0KHQotCQ0J3QkDEVMBMGA1UECAwM0JDQodCi0JDQndCQMRgwFgYDVQQKDA/QkNCeICLQotCV
+                0KHQoiIxGDAWBgNVBAsMD0JJTjEyMzQ1Njc4OTAyMTEZMBcGA1UEKgwQ0KLQldCh0KLQntCS0JjQ
+                pzBsMCUGCSqDDgMKAQEBATAYBgoqgw4DCgEBAQEBBgoqgw4DCgEDAQEAA0MABEBxgNJ9Tubg99AH
+                zUJqw7v6TqpFymqlgqBb4GzHAkjxn7bIFXGJ/jXkxwDxVEK8MTM2CDP+wa2mZGkCBZ7Nxa0ho4IB
+                2zCCAdcwDgYDVR0PAQH/BAQDAgbAMCgGA1UdJQQhMB8GCCsGAQUFBwMEBggqgw4DAwQBAgYJKoMO
+                AwMEAQIBMA8GA1UdIwQIMAaABFW1tK4wHQYDVR0OBBYEFE8F6c5sq1hTn0lNldneqJxxMtZPMF4G
+                A1UdIARXMFUwUwYHKoMOAwMCAjBIMCEGCCsGAQUFBwIBFhVodHRwOi8vcGtpLmdvdi5rei9jcHMw
+                IwYIKwYBBQUHAgIwFwwVaHR0cDovL3BraS5nb3Yua3ovY3BzMFAGA1UdHwRJMEcwRaBDoEGGHmh0
+                dHA6Ly9jcmwucGtpLmdvdi5rei9nb3N0LmNybIYfaHR0cDovL2NybDEucGtpLmdvdi5rei9nb3N0
+                LmNybDBUBgNVHS4ETTBLMEmgR6BFhiBodHRwOi8vY3JsLnBraS5nb3Yua3ovZF9nb3N0LmNybIYh
+                aHR0cDovL2NybDEucGtpLmdvdi5rei9kX2dvc3QuY3JsMGMGCCsGAQUFBwEBBFcwVTAvBggrBgEF
+                BQcwAoYjaHR0cDovL3BraS5nb3Yua3ovY2VydC9wa2lfZ29zdC5jZXIwIgYIKwYBBQUHMAGGFmh0
+                dHA6Ly9vY3NwLnBraS5nb3Yua3owDQYJKoMOAwoBAQECBQADQQBE2N/p0gveEF8gupqO7MvjJHkr
+                EtrUaZXEHRIhJURVvBTLh/VAnHK2r2wJFm5bI/jMR4lDPSqbTVksrh/YeGIX
+            </ds:X509Certificate>
+        </ds:X509Data>
+    </ds:KeyInfo>
+</ds:Signature></root>
