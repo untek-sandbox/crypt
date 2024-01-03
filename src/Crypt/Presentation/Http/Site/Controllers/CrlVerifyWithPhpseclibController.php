@@ -24,11 +24,11 @@ class CrlVerifyWithPhpseclibController extends AbstractSandboxController
         $crl = $x509->loadCRL($binary);
         $this->alertInfo('Count revoked certificates: ' . count($crl['tbsCertList']['revokedCertificates']));
         $this->printHeader('First Certificate');
-        $this->dd($crl['tbsCertList']['revokedCertificates'][0]);
+        $this->dump($crl['tbsCertList']['revokedCertificates'][0]);
 
         $this->printHeader('Head');
         unset($crl['tbsCertList']['revokedCertificates']);
-        $this->dd($crl);
+        $this->dump($crl);
 
         return $this->renderDefault();
     }

@@ -2,7 +2,9 @@
 
 namespace Untek\Sandbox\Crypt\Pki\Presentation\Http\Site\Controllers;
 
-class KeyController extends BaseController
+use Untek\Sandbox\Module\Presentation\Http\Site\Controllers\AbstractSandboxMenuController;
+
+class KeyController extends AbstractSandboxMenuController
 {
 
     public static function menu(): array

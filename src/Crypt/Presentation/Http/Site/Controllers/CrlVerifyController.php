@@ -23,7 +23,7 @@ class CrlVerifyController extends AbstractSandboxController
         $arr = CrlHelper::parse($binary);
         $this->alertInfo('Count revoked certificates: ' . count($arr));
         $this->printHeader('First Certificate');
-        $this->dd($arr[0]);
+        $this->dump($arr[0]);
         return $this->renderDefault();
     }
 }

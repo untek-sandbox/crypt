@@ -2,7 +2,9 @@
 
 namespace Untek\Sandbox\Crypt\Ecc\Presentation\Http\Site\Controllers;
 
-class BitcoinController extends BaseController
+use Untek\Sandbox\Module\Presentation\Http\Site\Controllers\AbstractSandboxMenuController;
+
+class BitcoinController extends AbstractSandboxMenuController
 {
 
     public static function menu(): array

@@ -2,7 +2,9 @@
 
 namespace Untek\Sandbox\Crypt\Ecc\Presentation\Http\Site\Controllers;
 
-class TestController extends BaseController
+use Untek\Sandbox\Module\Presentation\Http\Site\Controllers\AbstractSandboxMenuController;
+
+class TestController extends AbstractSandboxMenuController
 {
 
     public static function menu(): array

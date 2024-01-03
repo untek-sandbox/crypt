@@ -2,9 +2,9 @@
 
 namespace Untek\Sandbox\Crypt\Kaz\Presentation\Http\Site\Controllers;
 
-use Untek\Sandbox\Module\Presentation\Http\Site\Controllers\AbstractSandboxController;
+use Untek\Sandbox\Module\Presentation\Http\Site\Controllers\AbstractSandboxMenuController;
 
-class EdsController extends AbstractSandboxController
+class EdsController extends AbstractSandboxMenuController
 {
 
     public static function menu(): array
