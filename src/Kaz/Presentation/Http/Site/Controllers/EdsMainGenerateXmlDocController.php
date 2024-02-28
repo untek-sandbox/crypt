@@ -6,7 +6,7 @@ use Untek\Sandbox\Crypt\Crypt\Domain\Helpers\QrHelper;
 use Untek\Sandbox\Module\Presentation\Http\Site\Controllers\AbstractSandboxController;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 use Untek\Component\Encoder\Encoders\XmlEncoder;
-use Untek\Component\Time\Enums\TimeEnum;
+use Untek\Component\Measure\Time\Enums\TimeEnum;
 use Untek\Component\Web\Html\Helpers\HtmlHelper;
 use Untek\Core\Container\Helpers\ContainerHelper;
 //use App\Crypt\Domain\Helpers\QrHelper;
