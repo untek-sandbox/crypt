@@ -3,8 +3,8 @@
 namespace Untek\Sandbox\Crypt\Crypt\Presentation\Http\Site\Controllers;
 
 use Untek\Sandbox\Module\Presentation\Http\Site\Controllers\AbstractSandboxController;
-use Untek\Core\FileSystem\Helpers\FilePathHelper;
-use Untek\Core\FileSystem\Helpers\FileStorageHelper;
+use Untek\Component\FileSystem\Helpers\FilePathHelper;
+use Untek\Component\FileSystem\Helpers\FileStorageHelper;
 use Untek\Core\Instance\Helpers\PropertyHelper;
 use Untek\Sandbox\Crypt\Crypt\Domain\Helpers\EgovGeneratorHelper;
 use phpseclib\Crypt\RSA;
@@ -13,7 +13,7 @@ use Symfony\Component\Form\FormFactoryInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
-use Untek\Core\Text\Libs\RandomString;
+use Untek\Component\Text\Libs\RandomString;
 //use ZnCore\Base\Legacy\Yii\Helpers\FileHelper;
 use Untek\Crypt\Pki\Domain\Helpers\RsaKeyLoaderHelper;
 use Untek\Crypt\Pki\Domain\Libs\Rsa\RsaStoreRam;

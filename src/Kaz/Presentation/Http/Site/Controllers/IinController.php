@@ -6,7 +6,7 @@ use Untek\Sandbox\Crypt\Kaz\Presentation\Http\Site\Forms\IinForm;
 use Untek\Sandbox\Module\Presentation\Http\Site\Controllers\AbstractSandboxController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Untek\Core\Enum\Helpers\EnumHelper;
+use Untek\Component\Enum\Helpers\EnumHelper;
 use Untek\Kaz\Iin\Domain\Enums\JuridicalPartEnum;
 use Untek\Kaz\Iin\Domain\Enums\JuridicalTypeEnum;
 use Untek\Kaz\Iin\Domain\Enums\SexEnum;

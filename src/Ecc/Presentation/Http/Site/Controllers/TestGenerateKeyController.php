@@ -9,7 +9,7 @@ use Mdanter\Ecc\Serializer\PublicKey\DerPublicKeySerializer;
 use Mdanter\Ecc\Serializer\PublicKey\PemPublicKeySerializer;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Untek\Core\FileSystem\Helpers\FileStorageHelper;
+use Untek\Component\FileSystem\Helpers\FileStorageHelper;
 use ZnCore\Domain\Exceptions\UnprocessibleEntityException;
 use ZnCrypt\Base\Domain\Helpers\CryptKeyHelper;
 use ZnLib\Web\Symfony4\MicroApp\Interfaces\BuildFormInterface;

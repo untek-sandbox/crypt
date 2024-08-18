@@ -8,7 +8,7 @@ use phpseclib\File\X509;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Untek\Component\Encoder\Encoders\XmlEncoder;
-use Untek\Core\FileSystem\Helpers\FileStorageHelper;
+use Untek\Component\FileSystem\Helpers\FileStorageHelper;
 use Untek\Crypt\Base\Domain\Exceptions\CertificateExpiredException;
 use Untek\Crypt\Base\Domain\Exceptions\FailCertificateSignatureException;
 use Untek\Crypt\Base\Domain\Exceptions\FailSignatureException;
