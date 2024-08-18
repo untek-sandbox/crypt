@@ -9,7 +9,7 @@ use Untek\Sandbox\Crypt\Crypt\Domain\Helpers\PkiHelper;
 use Untek\Sandbox\Crypt\Pki\Presentation\Http\Site\Forms\CertificateRequestForm;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Untek\Core\Arr\Helpers\ArrayHelper;
+use Untek\Component\Arr\Helpers\ArrayHelper;
 use Untek\Core\Text\Helpers\Inflector;
 use Untek\Core\Text\Libs\RandomString;
 use Untek\Crypt\Pki\XmlDSig\Domain\Libs\KeyLoaders\DirectoryKeyLoader;
