@@ -3,7 +3,6 @@
 namespace Untek\Sandbox\Crypt\Kaz\Presentation\Http\Site\Controllers;
 
 use Untek\Sandbox\Module\Presentation\Http\Site\Controllers\AbstractSandboxController;
-use Untek\Model\Query\Entities\Query;
 use Untek\Sandbox\Sandbox\EgovData\Domain\Libs\EgovDataClient;
 use Untek\Sandbox\Sandbox\EgovData\Domain\Libs\EgovDataProvider;
 use ZnSymfony\Sandbox\Symfony4\Web\Base\BaseController;
