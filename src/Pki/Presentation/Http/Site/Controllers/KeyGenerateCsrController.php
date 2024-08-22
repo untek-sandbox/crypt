@@ -10,7 +10,7 @@ use Untek\Sandbox\Crypt\Pki\Presentation\Http\Site\Forms\CertificateRequestForm;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Untek\Component\Arr\Helpers\ArrayHelper;
-use Untek\Component\Text\Helpers\Inflector;
+use Yiisoft\Strings\Inflector;
 use Untek\Component\Text\Libs\RandomString;
 use Untek\Crypt\Pki\XmlDSig\Domain\Libs\KeyLoaders\DirectoryKeyLoader;
 use Untek\Kaz\Iin\Domain\Entities\DateEntity;
@@ -45,7 +45,7 @@ class KeyGenerateCsrController extends BaseController
         $faker = new Generator();
         $addressProvider = new \Faker\Provider\kk_KZ\Address($faker);
         $city = Transliterator::transliterate($addressProvider->city(), '-');
-        $city = Inflector::titleize($city);
+        $city = (new Inflector())->toSentence($city);
 
         if ($nationality == 'kz') {
             $personProvider = new \Faker\Provider\kk_KZ\Person($faker);
