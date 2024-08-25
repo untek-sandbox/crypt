@@ -9,7 +9,7 @@ use Untek\Sandbox\Crypt\Crypt\Domain\Helpers\PkiHelper;
 use Untek\Sandbox\Crypt\Pki\Presentation\Http\Site\Forms\CertificateRequestForm;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Untek\Component\Arr\Helpers\ArrayHelper;
+use Untek\Component\Arr\Helpers\ExtArrayHelper;
 use Yiisoft\Strings\Inflector;
 use Untek\Component\Text\Libs\RandomString;
 use Untek\Crypt\Pki\XmlDSig\Domain\Libs\KeyLoaders\DirectoryKeyLoader;
@@ -86,7 +86,7 @@ class KeyGenerateCsrController extends BaseController
                     'organizationName' => $form->getOrganizationName(),
                 ];
 
-                $dn = ArrayHelper::removeEmptyItems($dn);
+                $dn = ExtArrayHelper::removeEmptyItems($dn);
 
                 $random = new RandomString();
                 $random->addCharactersAll();

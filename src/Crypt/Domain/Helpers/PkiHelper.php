@@ -4,7 +4,7 @@ namespace Untek\Sandbox\Crypt\Crypt\Domain\Helpers;
 
 use phpseclib\Crypt\RSA;
 use phpseclib\File\X509;
-use ZnCore\Base\Legacy\Yii\Helpers\ArrayHelper;
+use ZnCore\Base\Legacy\Yii\Helpers\ExtArrayHelper;
 use Untek\Crypt\Pki\XmlDSig\Domain\Entities\KeyEntity;
 
 class PkiHelper
