@@ -15,7 +15,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
 use Untek\Sandbox\Module\Presentation\Http\Site\Controllers\AbstractSandboxController;
-use Untek\Component\Code\Helpers\ComposerHelper;
+use Untek\Component\Package\Helpers\ComposerHelper;
 use ZnSymfony\Sandbox\Symfony4\Web\Base\BaseController;
 
 ComposerHelper::requireAssert(EccFactory::class, 'mdanter/ecc');
